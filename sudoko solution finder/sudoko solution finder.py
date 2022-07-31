@@ -9,7 +9,8 @@ grid=[
     [0,0,0,0,0,0,0,0,0],
     [0,0,0,0,0,0,0,0,0],
     [0,0,0,0,0,0,0,0,0]]
-# assuming of rows and columns ans initating the 0 asnumbers
+# assuming of rows and columns ans initating the 0 as numbers
+# substitute the given sudoko problem in the place of "0's" blank places as 0
 def possible(row, column, number):
     global grid
 #taking the x and y directionas i and j vectors i=rows,j=columns
